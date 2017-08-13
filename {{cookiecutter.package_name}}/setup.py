@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='{{cookiecutter.script_name}}',
+    name=script,
     version='0.1',
-    py_modules=['{{cookiecutter.package_name}}'],
+    packages=find_packages(),
     install_requires=[
         'Click',
     ],
