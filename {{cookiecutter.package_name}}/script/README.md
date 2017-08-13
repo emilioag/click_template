@@ -1,3 +1,3 @@
-# {{coockiecutter.package_name}}
+# {{cookiecutter.package_name}}
 
-{{coockiecutter.package_description}}
+{{cookiecutter.package_description}}
